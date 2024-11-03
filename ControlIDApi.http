@@ -1,0 +1,6 @@
+@ControlIDApi_HostAddress = http://localhost:5262
+
+GET {{ControlIDApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
