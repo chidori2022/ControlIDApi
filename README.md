@@ -87,7 +87,7 @@ Agora, o serviço estará rodando em segundo plano e será iniciado automaticame
 ## 8. Verificar o Funcionamento da API
 Com o serviço em execução, você pode acessar os endpoints usando um cliente HTTP como Postman. Exemplo de endpoint:
 ```bash
-sc start "ControlID"(http://localhost:5000/api/biometria/inicializar)
+http://localhost:5000/api/biometria/inicializar
 ```
 
 ### Considerações Finais
