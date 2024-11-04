@@ -98,7 +98,7 @@ http://localhost:5000/api/biometria/inicializar
 ### DICAS
 - A DLL roda em x32;
 - Caso dê algum erro ao iniciar o projeto compilado, tente ver nos eventos do windows para verificar o erro;
-- A DLL precisa estar na pasta system32;
+- A DLL precisa estar na pasta system32 e também na SysWOW64;
 - Usei o postman para testar a inicialização e o identificar a biometria, ainda não fiz a funcao cadastrar dele.
 
 Minhas consultas:
