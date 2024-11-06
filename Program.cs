@@ -14,6 +14,15 @@ public class Program
         // Adiciona serviços para controladores
         builder.Services.AddControllers();
 
+        // Configura CORS para permitir requisições de localhost:3000
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowLocalhost3000",
+                policy => policy.WithOrigins("http://localhost:3000")
+                                .AllowAnyMethod()
+                                .AllowAnyHeader());
+        });
+
         // Configura Swagger para documentação da API (usado apenas em desenvolvimento)
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
@@ -26,6 +35,9 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+
+        // Aplica a política de CORS configurada
+        app.UseCors("AllowLocalhost3000");
 
         // Habilita o roteamento e mapeia os controladores
         app.UseRouting();

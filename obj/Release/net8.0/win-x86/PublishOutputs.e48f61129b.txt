@@ -1,4 +1,0 @@
-C:\Users\sabre\Desktop\example\meuprojeto\ControlIDApi\bin\Release\net8.0\win-x86\publish\appsettings.Development.json
-C:\Users\sabre\Desktop\example\meuprojeto\ControlIDApi\bin\Release\net8.0\win-x86\publish\appsettings.json
-C:\Users\sabre\Desktop\example\meuprojeto\ControlIDApi\bin\Release\net8.0\win-x86\publish\ControlIDApi.pdb
-C:\Users\sabre\Desktop\example\meuprojeto\ControlIDApi\bin\Release\net8.0\win-x86\publish\ControlIDApi.exe

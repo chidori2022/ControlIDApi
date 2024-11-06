@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\ControlIDApi\\ControlIDApi.csproj",
         "projectName": "ControlIDApi",
         "projectPath": "C:\\ControlIDApi\\ControlIDApi.csproj",
-        "packagesPath": "C:\\Users\\sabre\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\marcelo.winter\\.nuget\\packages\\",
         "outputPath": "C:\\ControlIDApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sabre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marcelo.winter\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -67,6 +67,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[8.0.10, 8.0.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[8.0.10, 8.0.10]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -76,6 +90,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
         }
       }
     }

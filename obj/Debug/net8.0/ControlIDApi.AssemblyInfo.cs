@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControlIDApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd2d48e1fafd5d4a9c7cc3917c814027c6126eca")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControlIDApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControlIDApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
